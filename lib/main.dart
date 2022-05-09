@@ -1,7 +1,7 @@
+import 'package:core_flutter_canvas/ch1/cfc_ch1_1.dart';
 import 'package:core_flutter_canvas/ch1/cfc_ch1_2.dart';
+import 'package:core_flutter_canvas/ch1/cfc_ch1_3.dart';
 import 'package:flutter/material.dart';
-
-import 'ch1/cfc_ch1_1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -53,7 +53,8 @@ class _MenuPageState extends State<MenuPage> {
               onTap: () {
                 Navigator.of(context).push(MaterialPageRoute(builder: (_) {
                   // return const CFCCH11();
-                  return const CFCCH12();
+                  // return const CFCCH12();
+                  return const CFCCH13();
                 }));
               },
               title: Text(chapters[index]),

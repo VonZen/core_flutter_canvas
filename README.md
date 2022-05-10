@@ -4,7 +4,7 @@
 ### 1.1 canvas element--canvas 元素 ✅ 
 ### 1.2 Fundamental Drawing Operations--基本的绘制操作 ✅ 
 ### 1.3 Event Handling--事件处理 ✅ 
-### 1.4 Saving and Restoring--canvas 的保存与恢复
+### 1.4 Saving and Restoring--canvas 的保存与恢复 ✅
 ### 1.5 Save Canvas to Image--保存 Canvas 为图片
 ### 1.6 A Brief Math Primer--基础数学知识简介
 ## 2. Drawing--绘制

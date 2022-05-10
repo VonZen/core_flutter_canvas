@@ -16,7 +16,7 @@ class _CFCCH13State extends State<CFCCH13> {
           builder: (BuildContext context, BoxConstraints constraints) {
             return SizedBox(
               width: constraints.maxWidth,
-              height: constraints.maxHeight, 
+              height: constraints.maxHeight,
               child: GestureDetector(
                 onTap: () => debugPrint('Painter onTap'),
                 child: FittedBox(
@@ -38,7 +38,7 @@ class _CFCCH13State extends State<CFCCH13> {
 class TouchablePainter extends CustomPainter {
   List<Path> paths = [];
 
-  final pen = Paint()..color = Colors.blue;8
+  final pen = Paint()..color = Colors.blue;
 
   @override
   void paint(Canvas canvas, Size size) {

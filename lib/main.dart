@@ -3,6 +3,9 @@ import 'package:core_flutter_canvas/ch1/cfc_ch1_2.dart';
 import 'package:core_flutter_canvas/ch1/cfc_ch1_3.dart';
 import 'package:core_flutter_canvas/ch1/cfc_ch1_4.dart';
 import 'package:core_flutter_canvas/ch1/cfc_ch1_5.dart';
+import 'package:core_flutter_canvas/ch2/cfc_ch2_3.dart';
+import 'package:core_flutter_canvas/ch2/cfc_ch2_4.dart';
+import 'package:core_flutter_canvas/ch2/cfc_ch2_5.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -58,7 +61,10 @@ class _MenuPageState extends State<MenuPage> {
                   // return const CFCCH12();
                   // return const CFCCH13();
                   // return const CFCCH14();
-                  return const CFCCH15();
+                  // return const CFCCH15();
+                  // return const CFCCH23();
+                  // return const CFCCH24();
+                  return const CFCCH25();
                 }));
               },
               title: Text(chapters[index]),

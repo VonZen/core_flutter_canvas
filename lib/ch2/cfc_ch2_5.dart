@@ -75,9 +75,9 @@ class ShadowPainter extends CustomPainter {
     pen.color = Colors.white;
     SimpleBoxShadow rectShadow = const SimpleBoxShadow(
       color: Colors.black54,
-      offset: Offset(2, 2),
-      blurRadius: 4.0,
-      spreadRadius: 0,
+      offset: Offset(-2, -2),
+      blurRadius: 5.0,
+      spreadRadius: -5,
     );
     canvas.drawRect(rectShadow.toBounds(rect), rectShadow.toPaint());
     canvas.drawRect(rect, pen);
@@ -88,7 +88,7 @@ class ShadowPainter extends CustomPainter {
       color: Colors.redAccent,
       offset: Offset(0, 0),
       blurRadius: 15.0,
-      spreadRadius: 0,
+      spreadRadius: -10,
     );
     canvas.drawRRect(
         RRect.fromRectAndRadius(circleShadow.toBounds(circle), const Radius.circular(40)), circleShadow.toPaint());

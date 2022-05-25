@@ -13,9 +13,10 @@
 ### 2.3 --矩形绘制 ✅
 ### 2.4 --填充颜色、渐变色或图像 ✅
 ### 2.5 --阴影 ✅
-### 2.6 --路径、描边与填充
-### 2.7 --线段
-### 2.8 --圆弧与圆形的绘制
+### 2.6 --点、线、面的快捷绘制 ✅
+### 2.7 --路径、描边与填充✅
+### 2.8 --线段✅
+### 2.9 --圆弧与圆形的绘制 
 ### 2.9 --贝塞尔曲线
 ### 2.10 --多边形的绘制
 ### 2.11 --高级路径操作
@@ -38,6 +39,10 @@
 
 
 # 一些技术点记录
+系统的中文SKIA讲解
+https://docs.microsoft.com/zh-cn/xamarin/xamarin-forms/user-interface/graphics/skiasharp/paths/
+
+全局渐变色 https://flutter.cn/docs/cookbook/effects/gradient-bubbles
 Matric
 http://www.opengl-tutorial.org/cn/beginners-tutorials/tutorial-3-matrices/
 https://medium.com/flutter-community/advanced-flutter-matrix4-and-perspective-transformations-a79404a0d828
@@ -45,3 +50,17 @@ https://en.wikipedia.org/wiki/Row-_and_column-major_order
 https://learnopengl-cn.github.io/01%20Getting%20started/07%20Transformations/
 https://learnopengl.com/Getting-started/Transformations
 https://en.wikipedia.org/wiki/Transformation_matrix
+
+boxShadow
+https://getcssscan.com/css-box-shadow-examples
+https://www.joshwcomeau.com/css/designing-shadows/
+
+圆角多边形
+https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes
+
+贝塞尔
+https://www.jasondavies.com/animated-bezier/
+https://cubic-bezier.com/#.17,.67,.83,.67
+https://bezier.method.ac/
+https://www.youtube.com/watch?v=aVwxzDHniEw&t=116s
+

@@ -16,8 +16,8 @@
 ### 2.6 --点、线、面的快捷绘制 ✅
 ### 2.7 --路径、描边与填充✅
 ### 2.8 --线段✅
-### 2.9 --圆弧与圆形的绘制 
-### 2.9 --贝塞尔曲线
+### 2.9 --圆弧与圆形的绘制 ✅
+### 2.9 --贝塞尔曲线✅
 ### 2.10 --多边形的绘制
 ### 2.11 --高级路径操作
 ### 2.12 --坐标变换
@@ -64,3 +64,7 @@ https://cubic-bezier.com/#.17,.67,.83,.67
 https://bezier.method.ac/
 https://www.youtube.com/watch?v=aVwxzDHniEw&t=116s
 
+BlendMode
+https://medium.com/@brianjleeofcl/quick-dig-css-blend-modes-practical-uses-a1e7064df9a0
+https://ishadeed.com/article/blending-modes-css/
+https://www.pixelmator.com/support/guide/pixelmator-pro/905/
